@@ -4,7 +4,7 @@ Given launch site
 When enter userid as "<x>"
 And enter password as "<y>"
 And click login
-Then validate output for criteria "<z>" for "<username>" and "<y>"
+Then validate output for criteria "<z>" for "<x>" and "<y>"
 And close site
 Examples:
 |       x      |    y      |     z     |
